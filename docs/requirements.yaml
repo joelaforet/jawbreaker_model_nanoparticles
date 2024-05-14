@@ -1,0 +1,16 @@
+name: docs_JawBreaker_Model_Nanoparticles
+channels:
+
+  - defaults
+dependencies:
+    # Base depends
+  - python
+  - pip
+  
+
+
+
+    # Pip-only installs
+  - pip:
+    - -e ../
+
